@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>ArchitectureSample.Core</RootNamespace>
+    <AssemblyName>ArchitectureSample.Core</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.EC2" Version="3.3.60" />
+    <PackageReference Include="AWSSDK.ElasticLoadBalancing" Version="3.3.3.2" />
+    <PackageReference Include="AWSSDK.ElasticLoadBalancingV2" Version="3.3.10.7" />
+    <PackageReference Include="Ben.Demystifier" Version="0.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="NLog.Extensions.Logging" Version="1.2.1" />
+  </ItemGroup>
+
+</Project>

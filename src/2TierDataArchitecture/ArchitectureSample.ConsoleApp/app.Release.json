@@ -1,0 +1,10 @@
+﻿{
+  "dryrun": true,
+  "project": "Sample Project",
+  "functionUrl": "My Azure Functions Url",
+  "loadbalancer": "test-alb",
+  "isAlb": true,
+  "Channel": "YOUR_CHANNEL",
+  "profile": "your_aws_profile",
+  "region": "ap-northeast-1"
+}
